@@ -1,5 +1,7 @@
 #pragma once
 
+#include <stdint.h>
+
 static constexpr uint32_t eeprom_not_programmed =
     0xFFFFFFFF; // default value in eeprom when not programmed
 
