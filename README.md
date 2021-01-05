@@ -1,2 +1,3 @@
 # avr-bootloader-common
-Primitives for writing own AVR bootloaders
+
+Primitives for writing own AVR bootloaders.
