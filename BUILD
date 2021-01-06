@@ -8,4 +8,8 @@ cc_library(
         ["*/**/*.cpp"],
     ),
     hdrs = glob(["*/**/*.h"]),
+    includes = [
+        "include",
+    ],
+    strip_include_prefix = "include",
 )
