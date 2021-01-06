@@ -1,5 +1,5 @@
 cc_library(
-    name = "all",
+    name = "avr-bootloader-common",
     srcs = glob(
         ["*/**/*.cpp"],
     ),
