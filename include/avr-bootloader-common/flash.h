@@ -23,7 +23,7 @@ static inline void erasePage(const uint16_t address)
   boot_spm_busy_wait();
 }
 
-static inline void writeToPageBuffer(const uint16_t address, uint8_t *data)
+static inline void writeToPageBuffer(const uint16_t address, uint8_t const *data)
 {
   erasePage(address);
   for (uint8_t i = 0; i < SPM_PAGESIZE; i += 2)
